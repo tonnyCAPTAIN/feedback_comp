@@ -16,7 +16,7 @@ class Message(models.Model):
     phonenumber = models.CharField(max_length=15)
     date = models.DateTimeField(auto_now_add=timezone.now())
     description = models.CharField(max_length=255)
-    Category = models.ForeignKey(Category, on_delete=models.CASCADE)
+    category = models.ForeignKey(Category, on_delete=models.CASCADE)
 
     def __str__(self):
         return self.email
