@@ -1,5 +1,5 @@
 # Feedback/complain system
-A web application that one an organisation can used in getting client feedback on their products.
+A web application that  an organisation can used in getting client feedback on their products.
 
 ## Gettigns started
 Go to (https://github.com/tonnyCAPTAIN/feedback_comp) Download or clone the repository to your local machine. Open the project using your favorite IDE
