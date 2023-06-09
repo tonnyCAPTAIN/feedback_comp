@@ -24,9 +24,9 @@
                 <li><a href="{% url 'welcome' %}" class="nav-item">Home</a></li>
                 <li><a href="#" class="nav-item">About</a></li>
                 <li><a href="#" class="nav-item">Contact</a></li>
-                {% comment %} {% if user.is_authenticated and user.is_superuser %}
-                    <li><a href="{% url 'admin_pr' %}" class="nav-item">Admin Panel</a></li>
-                {% endif %} {% endcomment %}
+                
+                <li><a href="{% url 'admin_pr' %}" class="nav-item">Admin Panel</a></li>
+                
 
                 
                 <li><a href="{% url 'logout' %}" class="nav-item">Logout</a></li>
